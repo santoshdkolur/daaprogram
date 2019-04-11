@@ -1,3 +1,6 @@
+//Program doesn't work
+
+
 #include<stdio.h>
 int cost[10][10],n,source,q[10],f,r,s[10],i,j,u,v;
 void bfs()
