@@ -15,7 +15,7 @@ void bfs()
 		u=q[f++];
 		for(v=1;v<=n;v++)
 		{
-			if(cost[v][v]&&s[v]==0)
+			if(cost[v][v]==1&&s[v]==0)
 			{
 				s[v]=1;
 				q[++r]=v;
